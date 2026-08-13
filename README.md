@@ -1,15 +1,15 @@
-Proyecto de Inteligencia de Negocios - RetailMax Perú S.A.C.
+# Proyecto de Inteligencia de Negocios - RetailMax Perú S.A.C.
 
+## Descripción
 
-* Descripción: 
 Proyecto académico de Inteligencia de Negocios desarrollado para RetailMax Perú S.A.C., orientado al análisis de ventas mediante la implementación de un Data Warehouse, procesos ETL con T-SQL y un dashboard interactivo desarrollado en Power BI.
 
+## Objetivo
 
-* Objetivo:
 Diseñar e implementar una solución de Inteligencia de Negocios que permita organizar, integrar y analizar la información de ventas de RetailMax Perú, facilitando la generación de indicadores y reportes para la toma de decisiones.
 
+## Tecnologías utilizadas
 
-* Tecnologías utilizadas:
 - SQL Server Developer
 - T-SQL
 - BULK INSERT
@@ -17,14 +17,16 @@ Diseñar e implementar una solución de Inteligencia de Negocios que permita org
 - Microsoft Excel
 - Archivos CSV
 
+## Arquitectura
 
-* Arquitectura:
-El proyecto sigue el flujo:
-CSV → ETL/T-SQL → SQL Server → Power BI → Dashboard
+El proyecto sigue el siguiente flujo:
 
+**CSV → ETL/T-SQL → SQL Server → Power BI → Dashboard**
 
-* Modelo dimensional:
+## Modelo dimensional
+
 El Data Warehouse utiliza un esquema estrella compuesto por:
+
 - FactVentas
 - DimCliente
 - DimProducto
@@ -33,16 +35,18 @@ El Data Warehouse utiliza un esquema estrella compuesto por:
 - DimVendedor
 - DimMetodoPago
 
+## ETL
 
-* ETL:
 - El proceso ETL permitió integrar los datos provenientes de archivos CSV hacia SQL Server.
-- Se utilizaron instrucciones T-SQL, principalmente BULK INSERT, para realizar la carga de información hacia las tablas del Data Warehouse.
+- Se utilizaron instrucciones T-SQL, principalmente `BULK INSERT`, para realizar la carga de información hacia las tablas del Data Warehouse.
 - Posteriormente, se realizaron validaciones de integridad referencial para comprobar la correcta relación entre la tabla de hechos y las dimensiones.
 
+## Dashboard en Power BI
 
-* Dashboard en Power BI:
 Se desarrolló un dashboard interactivo en Power BI para analizar las ventas.
+
 El dashboard permite analizar la información mediante diferentes dimensiones como:
+
 - Periodo
 - Productos
 - Categorías
@@ -50,21 +54,21 @@ El dashboard permite analizar la información mediante diferentes dimensiones co
 - Segmentos de clientes
 - Métodos de pago
 
+## KPIs
 
-* KPIs
 - Ventas Totales
 - Cantidad Vendida
 - Ticket Promedio
 
+## Entregables
 
-* Entregables
 - Scripts SQL
 - Archivos CSV
 - Dashboard Power BI
 - Informe final
 - Presentación ejecutiva
 
+## Resultados
 
-* Resultados
 - La solución desarrollada permitió centralizar la información de ventas, facilitar su análisis mediante indicadores y representar los resultados de forma visual e interactiva mediante Power BI.
 - El proyecto permitió aplicar conceptos de Data Warehouse, procesos ETL, modelado dimensional, SQL y visualización de datos.
