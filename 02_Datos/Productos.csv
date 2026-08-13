@@ -1,0 +1,21 @@
+﻿IdProducto;Producto;Categoria;Marca;Precio
+P001;iPhone 15 1;Celulares;Sony;4307
+P002;Redmi Note 2;Celulares;Acer;3649
+P003;iPhone 15 3;Celulares;Xiaomi;2839
+P004;Redmi Note 4;Celulares;Acer;1893
+P005;IdeaPad 1;Laptops;LG;4824
+P006;Pavilion 2;Laptops;Acer;1972
+P007;IdeaPad 3;Laptops;HP;4860
+P008;IdeaPad 4;Laptops;LG;2775
+P009;Smart TV 1;TV;HP;2225
+P010;Smart TV 2;TV;LG;810
+P011;OLED 3;TV;LG;699
+P012;Smart TV 4;TV;LG;1634
+P013;Audifonos 1;Audio;Lenovo;827
+P014;Parlante 2;Audio;Sony;1746
+P015;Audifonos 3;Audio;Sony;1319
+P016;Audifonos 4;Audio;Samsung;1416
+P017;Refrigeradora 1;Electrodomesticos;LG;1954
+P018;Lavadora 2;Electrodomesticos;Xiaomi;1865
+P019;Lavadora 3;Electrodomesticos;Samsung;384
+P020;Lavadora 4;Electrodomesticos;Acer;3515
